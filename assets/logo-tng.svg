@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-3 -3 148 50" role="img" aria-label="T.N.G Service International">
+  <title>T.N.G</title>
+  <!-- Logo vectoriel : remplace le JPEG 800 × 600 servi aujourd'hui, y compris
+       en favicon. Net à toutes les tailles, imprimable, recolorable. -->
+  <g fill="#101214">
+    <!-- T -->
+    <rect x="0" y="0" width="30" height="8"/>
+    <rect x="11" y="0" width="8" height="40"/>
+    <!-- N -->
+    <rect x="48" y="0" width="8" height="40"/>
+    <rect x="70" y="0" width="8" height="40"/>
+    <polygon points="56,0 70,30 70,40 56,10"/>
+  </g>
+  <!-- G -->
+  <path d="M122.1 13 A14 14 0 1 1 124 20 L110 20"
+        fill="none" stroke="#101214" stroke-width="8" stroke-linecap="butt" stroke-linejoin="miter"/>
+  <!-- les trois points, traités comme des carrés pleins : la signature -->
+  <g fill="#c2331c">
+    <rect x="34" y="32" width="8" height="8"/>
+    <rect x="82" y="32" width="8" height="8"/>
+    <rect x="130" y="32" width="8" height="8"/>
+  </g>
+</svg>
