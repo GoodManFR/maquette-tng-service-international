@@ -1,7 +1,7 @@
 /* ===========================================================================
-   T.N.G SERVICE INTERNATIONAL — maquette de refonte
+   T.N.G SERVICE INTERNATIONAL : maquette de refonte
    Direction artistique : « la clarté administrative ».
-   Grille stricte, beaucoup de blanc, une seule couleur d'accent — un rouge de
+   Grille stricte, beaucoup de blanc, une seule couleur d'accent : un rouge de
    sceau, qui n'est ni le bleu Elementor ni le vert du secteur. Les numéros
    d'identification et les dates sont traités comme des données de premier plan.
    Le bleu générique et la tour Eiffel sont abandonnés.
@@ -21,7 +21,7 @@
   --rule:    #e0e1df;
   --rule-2:  #f0f0ee;
 
-  --acc:      #c2331c;   /* rouge de sceau — unique accent */
+  --acc:      #c2331c;   /* rouge de sceau : unique accent */
   --acc-deep: #9c2513;
   --acc-wash: #fbeae6;
 
@@ -209,7 +209,7 @@ nav.main a:hover, nav.main a[aria-current="page"] { color: var(--ink); border-co
 .hero__fil .n { font-family: var(--mono); color: var(--acc); font-size: var(--step--2); letter-spacing: 0.1em; }
 .hero__fil .c { font-family: var(--mono); color: var(--ink-3); font-size: var(--step--2); }
 
-/* carte « identifiant » — visuel signature */
+/* carte « identifiant » : visuel signature */
 .idcard { border: 1px solid var(--ink); }
 .idcard__hd {
   background: var(--ink); color: #fff; padding: 0.7rem 1.1rem;

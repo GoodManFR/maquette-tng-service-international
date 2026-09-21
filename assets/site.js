@@ -1,5 +1,5 @@
 /* ===========================================================================
-   T.N.G SERVICE INTERNATIONAL — comportements de la maquette
+   T.N.G SERVICE INTERNATIONAL · comportements de la maquette
    =========================================================================== */
 (function () {
   'use strict';
@@ -37,7 +37,7 @@
     if (x) x.addEventListener('click', function () { mb.hidden = true; });
   }
 
-  /* --- formulaire de contact — il n'en existe aucun sur le site actuel ---- */
+  /* --- formulaire de contact : il n'en existe aucun sur le site actuel ---- */
   var cf = document.getElementById('contact-form');
   if (cf) {
     cf.addEventListener('submit', function (ev) {
@@ -58,7 +58,7 @@
   }
 
   /* =======================================================================
-     « Suis-je concerné ? » — sélection de produits → filières applicables
+     « Suis-je concerné ? » · sélection de produits → filières applicables
      ======================================================================= */
 
   var FIL = {
@@ -74,7 +74,7 @@
     },
     emb: {
       code: 'EMB', nom: 'Emballages',
-      quoi: 'Tout ce qui contient, protège ou présente le produit — jusqu’au carton d’expédition d’une commande en ligne.',
+      quoi: 'Tout ce qui contient, protège ou présente le produit, jusqu’au carton d’expédition d’une commande en ligne.',
       org: 'Citeo ou Adelphe'
     },
     tlc: {
@@ -149,7 +149,7 @@
       'Vous n’avez qu’un interlocuteur, en français, en anglais ou en chinois.</p>' +
       '</div>' +
       '<div class="outcome__ft">' +
-      '<a class="btn" href="tel:+33608544998">Appeler — 06 08 54 49 98</a>' +
+      '<a class="btn" href="tel:+33608544998">Appeler&nbsp;: 06 08 54 49 98</a>' +
       '<a class="btn btn--line" href="#contact">Écrire</a>' +
       '<p>Le premier échange sert à qualifier vos produits, pas à vendre.</p></div>';
 
